@@ -49,9 +49,6 @@
         transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
         background-color: #ADC20C;
         color: #636363;
-        position: absolute;
-        width: 64em;
-        max-width: calc(100% - 4em);
         border-top-left-radius: 0.25em;
         border-top-right-radius: 0.25em;
         cursor: default;
@@ -123,6 +120,16 @@
                     #nav ul li a:active {
                         background-color: #ffff;
                         box-shadow: none;
+                    }
+
+                    #nav ul li a:link {
+                        color: #636363;
+                        text-decoration: none;
+                    }
+
+                    #nav ul li a:visited {
+                        color: #636363;
+                        text-decoration: none;
                     }
 
 /* Title */
