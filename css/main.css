@@ -11,6 +11,7 @@
 /* Body */
     #body1 {
         display: block;
+        position: relative;
         align-content: center;
         width: 100%;
         height: auto;
