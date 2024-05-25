@@ -90,13 +90,14 @@
         }
 
             #nav ul li {
-                transition: margin 0l2s ease;
+                transition: margin 0.2s ease;
                 margin: 0 0.35em;
                 padding: 0;
                 vertical-align: middle;
             }
 
                 #nav ul li a {
+                    transition: font-size 0.2s ease;
                     display: inline-block;
                     height: 2.25em;
                     line-height: 2.25em;
