@@ -1,4 +1,13 @@
 
+/* Banner */
+#banner {
+    background-color: #ccc;
+    text-align: center;
+    padding: 5px;
+    align-content: center;
+    width: 100%;
+}
+
 /* Footer */
     #footer {
         clear: both;
@@ -13,11 +22,8 @@
 
 /* Header */
     #header {
-        background-color: #ccc;
+        padding: 5em 5em 1em 5em;
         text-align: center;
-        padding: 5px;
-        align-content: center;
-        width: 100%;
     }
 
 /* Navigation */
