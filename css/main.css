@@ -105,6 +105,13 @@
         text-align: center;
     }
 
+    #header-scopes {
+        text-align: center;
+        background-image: linear-gradient(#00849C, #B1A6A2);
+        height: auto; 
+        width: auto;
+    }
+
 /* Images */
     #telescopes {
         height: 350px;
@@ -113,6 +120,11 @@
 /* Main */
     #main {
         background-color: aquamarine;
+        color: black;
+        border-radius: 0.25em;
+    }
+
+    #main-scopes {
         color: black;
         border-radius: 0.25em;
     }
