@@ -107,9 +107,6 @@
 
     #header-scopes {
         text-align: center;
-        background-image: linear-gradient(#00849C, #B1A6A2);
-        height: auto; 
-        width: auto;
     }
 
 /* Images */
@@ -224,6 +221,13 @@
 
 /* Wrapper */
     #wrapper {
+        width: auto;
+        box-sizing: border-box;
+    }
+
+    #wrapper-scopes {
+        background-image: linear-gradient(#00849C, #B1A6A2);
+        height: auto; 
         width: auto;
         box-sizing: border-box;
     }
