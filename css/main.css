@@ -18,6 +18,16 @@
         padding-bottom: 35px;
     }
 
+    #body2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        align-content: center;
+        background-color: #e6e6e6;
+        border-bottom: 1px solid black;
+    }
+
 /* Footer */
     #footer {
         clear: both;
@@ -28,6 +38,22 @@
         left: 0;
         height: 35px;
     }
+
+/* Grid */
+    #object {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        }
+
+        #object-1 { 
+            grid-area: 1 / 1 / 2 / 2; 
+            padding: 10px;
+            text-align: right;
+            border: 0px solid black;
+        }
 
 /* Header */
     #header {
