@@ -68,6 +68,8 @@
             text-align: right;
             border: 1px solid black;
             background-image: url(../images/andromeda.jpeg);
+            background-size: contain;
+            background-position: center;
         }
 
         #object-4 {
