@@ -139,13 +139,15 @@
 
 /* Navigation */
     #nav {
-        transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+        transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, 
+            border-top-right-radius 0.2s ease, padding 0.2s ease;
         background-color: none;
         color: #636363;
         border-top-left-radius: 0.25em;
         border-top-right-radius: 0.25em;
         cursor: default;
         text-align: center;
+        font-size: 2vw;
     }
 
         #nav input, #nav select, #nav textarea {
