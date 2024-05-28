@@ -14,7 +14,7 @@
         align-content: center;
         width: auto;
         height: auto;
-        background-color: grey;
+        background-color: #C1CED1;
         padding: .5em;
     }
 
@@ -112,7 +112,7 @@
 
 /* Header */
     #header {
-        padding: 7em 5em 4em 5em;
+        padding: 3em 3em 3em 3em;
         text-align: center;
     }
 
@@ -140,7 +140,7 @@
 /* Navigation */
     #nav {
         transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-        background-color: #ADC20C;
+        background-color: none;
         color: #636363;
         border-top-left-radius: 0.25em;
         border-top-right-radius: 0.25em;
