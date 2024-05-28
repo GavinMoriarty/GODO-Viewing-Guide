@@ -16,6 +16,7 @@
         height: auto;
         background-color: #C1CED1;
         padding: .5em;
+        font-family: PingFang TC;
     }
 
     #body2 {
@@ -64,7 +65,6 @@
             background-image: url(../images/pleiades.jpeg);
             background-size: contain;
             background-position: center;
-            background-repeat: no-repeat;
         }
 
         #object-2 {
