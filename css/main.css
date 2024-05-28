@@ -15,7 +15,7 @@
         width: auto;
         height: auto;
         background-color: grey;
-        padding: 35px
+        padding: .5em;
     }
 
     #body2 {
@@ -31,7 +31,7 @@
         clear: both;
         position: relative;
         background-color: white;
-        padding: 0.25em;
+        padding: 0.5em;
         bottom: 0;
         left: 0;
         height: 35px;
