@@ -153,7 +153,8 @@
         cursor: default;
         text-align: center;
         font-size: 2vw;
-        background-color: rgba(200, 200, 200, 0.15);
+        background-color: rgba(0, 0, 0, 0.8);
+        font-family: PingFang TC;
     }
 
         #nav input, #nav select, #nav textarea {
@@ -224,12 +225,12 @@
                     }
 
                     #nav ul li a:link {
-                        color: black;
+                        color: white;
                         text-decoration: none;
                     }
 
                     #nav ul li a:visited {
-                        color: black;
+                        color: white;
                         text-decoration: none;
                     }
 
