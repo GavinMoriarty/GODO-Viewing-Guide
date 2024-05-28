@@ -25,6 +25,7 @@
         padding: 5px;
         align-content: center;
         border-bottom: 1px solid black;
+        font-family: PingFang TC;
     }
 
 /* Footer */
@@ -36,6 +37,7 @@
         bottom: 0;
         left: 0;
         height: 35px;
+        font-family: PingFang TC;
     }
 
     #footer-scopes {
@@ -121,6 +123,7 @@
         height: 15vw;
         align-content: center;
         opacity: .8;
+        font-family: PingFang TC;
     }
 
     #header-scopes {
