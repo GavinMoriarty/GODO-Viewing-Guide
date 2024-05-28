@@ -119,6 +119,7 @@
         background-position: center;
         height: 15vw;
         align-content: center;
+        opacity: .8;
     }
 
     #header-scopes {
