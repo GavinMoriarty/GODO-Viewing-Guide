@@ -112,9 +112,13 @@
 
 /* Header */
     #header {
-        padding: 3em 3em 1em 3em;
+        padding: 1em 3em 1em 3em;
         text-align: center;
-        background-image: url(../images/GODO.jpeg)
+        background-image: url(../images/GODO.jpeg);
+        background-size: 100vw;
+        background-position: center;
+        height: 15vw;
+        align-content: center;
     }
 
     #header-scopes {
@@ -149,6 +153,7 @@
         cursor: default;
         text-align: center;
         font-size: 2vw;
+        background-color: rgba(200, 200, 200, 0.1);
     }
 
         #nav input, #nav select, #nav textarea {
