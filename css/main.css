@@ -65,8 +65,9 @@
             text-align: right;
             border: 1px solid black;
             background-image: url(../images/pleiades.jpeg);
-            background-size: contain;
+            background-size: cover;
             background-position: center;
+            background-repeat: no-repeat;
         }
 
         #object-2 {
@@ -83,8 +84,9 @@
             text-align: right;
             border: 1px solid black;
             background-image: url(../images/andromeda.jpeg);
-            background-size: contain;
+            background-size: cover;
             background-position: center;
+            background-repeat: no-repeat;
         }
 
         #object-4 {
@@ -101,8 +103,9 @@
             text-align: right;
             border: 1px solid black;
             background-image: url(../images/beehive.jpeg);
-            background-size: contain;
+            background-size: cover;
             background-position: center;
+            background-repeat: no-repeat;
         }
 
         #object-6 {
