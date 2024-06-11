@@ -1,0 +1,25 @@
+
+/* Grid */
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+
+    #grid-1 { 
+        grid-area: 1 / 1 / 2 / 2; 
+        padding: 10px;
+        text-align: right;
+        border: 1px solid black;
+        background-color: antiquewhite;
+    }
+
+    #grid-2 {
+        grid-area: 1 / 2 / 2 / 3;
+        padding: 10px;
+        text-align: left;
+        border: 1px solid black;
+        background-color: goldenrod;
+    }
