@@ -34,8 +34,12 @@
         padding: 10px;
         text-align: right;
         border: 1px solid black;
-        background-color: antiquewhite;
+        background-color: grey;
     }
+
+        #grid-1.h2 {
+            margin: 0;
+        }
 
     #grid-2 {
         grid-area: 1 / 2 / 2 / 3;
