@@ -1,4 +1,25 @@
 
+/* Body */
+#body {
+    display: block;
+    height: auto;
+    padding: 5px;
+    align-content: center;
+    border-bottom: 1px solid black;
+    font-family: PingFang TC;
+}
+
+/* Footer */
+#footer {
+    clear: both;
+    position: relative;
+    background-color: white;
+    padding: 0.25em;
+    bottom: 0;
+    left: 0;
+    height: 35px;
+}
+
 /* Grid */
 #grid {
     display: grid;
@@ -23,3 +44,22 @@
         border: 1px solid black;
         background-color: goldenrod;
     }
+
+/* Header */
+#header {
+    text-align: center;
+}
+
+/* Main */
+#main {
+    color: black;
+    border-radius: 0.25em;
+}
+
+/* Wrapper */
+#wrapper {
+    background-image: linear-gradient(#00849C, #B1A6A2);
+        height: auto; 
+        width: auto;
+        box-sizing: border-box;
+}
