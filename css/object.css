@@ -39,12 +39,12 @@
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .faq:hover {
+.active, .faq:hover {
     background-color: #ccc;
   }
   
   /* Style the accordion panel. Note: hidden by default */
-  .panel {
+.panel {
     padding: 0 18px;
     background-color: white;
     display: none;
@@ -52,7 +52,7 @@
     transition: max-height 0.2s ease-out;
   }
 
-  .faq:after {
+.faq:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
@@ -60,7 +60,7 @@
     margin-left: 5px;
   }
   
-  .active:after {
+.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
 
