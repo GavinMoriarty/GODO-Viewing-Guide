@@ -19,15 +19,6 @@
         font-family: PingFang TC;
     }
 
-    #body2 {
-        display: block;
-        height: auto;
-        padding: 5px;
-        align-content: center;
-        border-bottom: 1px solid black;
-        font-family: PingFang TC;
-    }
-
 /* Footer */
     #footer {
         clear: both;
@@ -39,82 +30,6 @@
         height: 35px;
         font-family: PingFang TC;
     }
-
-    #footer-scopes {
-        clear: both;
-        position: relative;
-        background-color: white;
-        padding: 0.25em;
-        bottom: 0;
-        left: 0;
-        height: 35px;
-    }
-
-/* Grid */
-    #object {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        }
-
-        #object-1 { 
-            grid-area: 1 / 1 / 2 / 2; 
-            padding: 10px;
-            text-align: right;
-            border: 1px solid black;
-            background-image: url(../images/pleiades.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        #object-2 {
-            grid-area: 1 / 2 / 2 / 3;
-            padding: 10px;
-            text-align: left;
-            border: 1px solid black;
-            background-color: white;
-        }
-
-        #object-3 { 
-            grid-area: 2 / 1 / 3 / 2; 
-            padding: 10px;
-            text-align: right;
-            border: 1px solid black;
-            background-image: url(../images/andromeda.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        #object-4 {
-            grid-area: 2 / 2 / 3 / 3;
-            padding: 10px;
-            text-align: left;
-            border: 1px solid black;
-            background-color: white;
-        }
-
-        #object-5 {
-            grid-area: 3 / 1 / 4 / 2;
-            padding: 10px;
-            text-align: right;
-            border: 1px solid black;
-            background-image: url(../images/beehive.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        #object-6 {
-            grid-area: 3 / 2 / 4 / 3;
-            padding: 10px;
-            text-align: left;
-            border: 1px solid black;
-            background-color: white;
-        }
 
 /* Header */
     #header {
@@ -129,10 +44,6 @@
         font-family: PingFang TC;
     }
 
-    #header-scopes {
-        text-align: center;
-    }
-
 /* Images */
     #telescopes {
         height: 350px;
@@ -141,11 +52,6 @@
 /* Main */
     #main {
         background-color: aquamarine;
-        color: black;
-        border-radius: 0.25em;
-    }
-
-    #main-scopes {
         color: black;
         border-radius: 0.25em;
     }
@@ -249,13 +155,6 @@
 
 /* Wrapper */
     #wrapper {
-        width: auto;
-        box-sizing: border-box;
-    }
-
-    #wrapper-scopes {
-        background-image: linear-gradient(#00849C, #B1A6A2);
-        height: auto; 
         width: auto;
         box-sizing: border-box;
     }
