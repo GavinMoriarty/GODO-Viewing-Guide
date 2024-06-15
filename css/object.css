@@ -1,4 +1,26 @@
 
+/* Link */
+a.obj:link
+{
+   color: black;
+   text-decoration: none;
+}
+a.obj:visited
+{
+   color: black;
+   text-decoration: none;
+}
+a.obj:hover
+{
+   color: black;
+   text-decoration: none;
+}
+a.obj:active
+{
+   color: black;
+   text-decoration: none;
+}
+
 /* Banner */
 #banner {
     background-color: #ccc;
